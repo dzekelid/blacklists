@@ -17,9 +17,9 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
   humanURL: https://auth0.com/
   baseURL: https://login.auth0.com/api/v2/
-  tags: Authentication, OAuth, Auth, User, Target, Service Level Agreement, Stack
-    Network, Technology, SaaS, Enterprise, API Service Provider, Identities, Profiles,
-    Relative Data, Service API
+  tags: Authentication, OAuth, User, Target, Service Level Agreement, Stack Network,
+    Technology, SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative
+    Data, Service API, Authentication
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/auth0/blackliststokens-get-postman.md
@@ -31,9 +31,9 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
   humanURL: https://auth0.com/
   baseURL: https://login.auth0.com//blacklists
-  tags: Authentication, OAuth, Auth, User, Target, Service Level Agreement, Stack
-    Network, Technology, SaaS, Enterprise, API Service Provider, Identities, Profiles,
-    Relative Data, Service API
+  tags: Authentication, OAuth, User, Target, Service Level Agreement, Stack Network,
+    Technology, SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative
+    Data, Service API, Authentication
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/auth0/apiv2blackliststokens-get-postman.md
@@ -45,9 +45,9 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
   humanURL: https://auth0.com/
   baseURL: https://login.auth0.com//blacklists
-  tags: Authentication, OAuth, Auth, User, Target, Service Level Agreement, Stack
-    Network, Technology, SaaS, Enterprise, API Service Provider, Identities, Profiles,
-    Relative Data, Service API
+  tags: Authentication, OAuth, User, Target, Service Level Agreement, Stack Network,
+    Technology, SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative
+    Data, Service API, Authentication
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/auth0/apiv2blackliststokens-get-postman.md
