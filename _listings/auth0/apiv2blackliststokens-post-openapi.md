@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Auth0
 x-complete: 0
 info:
-  title: Auth0 Blacklists API Get Blacklists Tokens
+  title: Auth0 Blacklists API Post Blacklists Tokens
   version: v1
-  description: Get blacklists tokens.
+  description: Post blacklists tokens.
 host: login.auth0.com
 basePath: /blacklists
 schemes:

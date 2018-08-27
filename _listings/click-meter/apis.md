@@ -13,11 +13,41 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Blacklists
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/click-meter/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Click Meter - Delete an ip blacklist entry
+  x-api-slug: accountipblacklistblacklistid-delete
+  description: Delete an ip blacklist entry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/click-meter/accountipblacklistblacklistid-delete-openapi.md
+- name: Click Meter - Delete an ip blacklist entry
+  x-api-slug: accountipblacklistblacklistid-delete
+  description: Delete an ip blacklist entry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/click-meter/accountipblacklistblacklistid-delete-openapi.md
+- name: Click Meter - Delete an ip blacklist entry
+  x-api-slug: accountipblacklistblacklistid-delete
+  description: Delete an ip blacklist entry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/click-meter/accountipblacklistblacklistid-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clearbit.api.gallery.streamdata.io

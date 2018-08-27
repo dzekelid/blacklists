@@ -6,11 +6,141 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Blacklists
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Retrieve a list of blacklists
+  x-api-slug: blacklists-get
+  description: Retrieve a list of blacklists
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklists-get-openapi.md
+- name: Rebilly - Create a blacklist
+  x-api-slug: blacklists-post
+  description: Create a blacklist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklists-post-openapi.md
+- name: Rebilly - Delete a blacklist
+  x-api-slug: blacklistsid-delete
+  description: Delete a blacklist with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-delete-openapi.md
+- name: Rebilly - Retrieve a blacklist
+  x-api-slug: blacklistsid-get
+  description: Retrieve a blacklist with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-get-openapi.md
+- name: Rebilly - Create a blacklist with predefined ID
+  x-api-slug: blacklistsid-put
+  description: Create a blacklist with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-put-openapi.md
+- name: Rebilly - Create a blacklist
+  x-api-slug: blacklists-post
+  description: Create a blacklist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklists-post-openapi.md
+- name: Rebilly - Delete a blacklist
+  x-api-slug: blacklistsid-delete
+  description: Delete a blacklist with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-delete-openapi.md
+- name: Rebilly - Retrieve a blacklist
+  x-api-slug: blacklistsid-get
+  description: Retrieve a blacklist with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-get-openapi.md
+- name: Rebilly - Create a blacklist with predefined ID
+  x-api-slug: blacklistsid-put
+  description: Create a blacklist with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-put-openapi.md
+- name: Rebilly - Create a blacklist with predefined ID
+  x-api-slug: blacklistsid-put
+  description: Create a blacklist with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-put-openapi.md
+- name: Rebilly - Retrieve a blacklist
+  x-api-slug: blacklistsid-get
+  description: Retrieve a blacklist with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-get-openapi.md
+- name: Rebilly - Delete a blacklist
+  x-api-slug: blacklistsid-delete
+  description: Delete a blacklist with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklistsid-delete-openapi.md
+- name: Rebilly - Create a blacklist
+  x-api-slug: blacklists-post
+  description: Create a blacklist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blacklists/master/_listings/rebilly/blacklists-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

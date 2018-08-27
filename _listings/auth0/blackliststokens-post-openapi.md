@@ -3,11 +3,11 @@ swagger: "2.0"
 x-collection-name: Auth0
 x-complete: 0
 info:
-  title: Auth0 Blacklists API Get Blacklists Tokens
-  version: v1
-  description: Get blacklists tokens.
+  title: Auth0 API Post Blacklists Tokens
+  description: Post blacklists tokens.
+  version: 1.0.0
 host: login.auth0.com
-basePath: /blacklists
+basePath: api/v2/
 schemes:
 - http
 produces:
@@ -36,38 +36,6 @@ paths:
       description: Post blacklists tokens.
       operationId: postBlacklistsTokens
       x-api-path-slug: blackliststokens-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Blacklists
-      - Tokens
-  /api/v2/blacklists/tokens:
-    get:
-      summary: Get Blacklists Tokens
-      description: Get blacklists tokens.
-      operationId: get_tokens
-      x-api-path-slug: apiv2blackliststokens-get
-      parameters:
-      - in: query
-        name: aud
-        description: The JWTs aud claim
-      responses:
-        200:
-          description: OK
-      tags:
-      - Blacklists
-      - Tokens
-    post:
-      summary: Post Blacklists Tokens
-      description: Post blacklists tokens.
-      operationId: post_tokens
-      x-api-path-slug: apiv2blackliststokens-post
       parameters:
       - in: body
         name: body
